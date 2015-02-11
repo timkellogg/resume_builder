@@ -1,0 +1,105 @@
+<h1>Build Your Resume</h1>
+
+<form action="/resume" method="post">
+	
+	<!-- NAME AND CONTACT INFO -->
+	<fieldset>
+		<legend>Basic Information</legend>
+			<div class="form-group col-xs-8">
+    		<input id="name" name="name" class="form-control" type="text" placeholder="Name" required>
+  		</div>
+  		<div class="form-group col-xs-8">
+    		<input id="email" name="email" class="form-control" type="email" placeholder="Email" required>
+  		</div>
+  		<div class="form-group col-xs-8">
+    		<input id="phone" name="phone" class="form-control" type="phone" placeholder="Phone Number" required>
+  		</div>
+	</fieldset>
+	
+	<!-- OBJECTIVE -->
+	<fieldset>
+		<legend>Objective</legend>
+		  <textarea class="form-control" type="text" rows="10" cols="50" placeholder="Type in your objective statement" required></textarea>
+	</fieldset>
+	
+	 <!-- SKILLS -->
+	<fieldset>
+		<legend>Skills</legend>
+		  <textarea class="form-control" type="text" rows="8" cols="40" placeholder="Add in skills separated by commas" required></textarea>
+	</fieldset>
+	
+	<!-- ADDING JOBS -->
+  <fieldset>
+  	<legend>Jobs</legend>
+  	 <div class="form-group col-xs-12">
+	     <h4>Job 1 (most recent)</h4>
+	      <input class="form-control" name="job-1" id="job-1-position" type="text" placeholder="Position" required>
+	      <input class="form-control" name="job-1" id="job-1-employer" type="text" placeholder="Employer" required>
+	      <input class="form-control" name="job-1" id="job-1-date-started" type="text" placeholder="Date started (MM/YY)" required>
+	      <input class="form-control" name="job-1" id="job-1-date-ended" type="text" placeholder="Date ended (MM/YY)" required>
+	      <textarea class="form-control" name="job-1-description" text="text" rows="5" cols="40" placeholder="Responsibilities" required></textarea>
+	    </div> 
+	   <div class="form-group col-xs-12">
+	     <h4>Job 2</h4>
+	      <input class="form-control" name="job-2" id="job-2-position" type="text" placeholder="Position">
+	      <input class="form-control" name="job-2" id="job-2-employer" type="text" placeholder="Employer">
+	      <input class="form-control" name="job-2" id="job-2-date-started" type="text" placeholder="Date started (MM/YY)">
+	      <input class="form-control" name="job-2" id="job-2-date-ended" type="text" placeholder="Date ended (MM/YY)">
+	      <textarea class="form-control" name="job-2-description" text="text" rows="5" cols="40" placeholder="Responsibilities"></textarea>
+	    </div> 
+	    <div class="form-group col-xs-12">
+	     <h4>Job 3</h4>
+	      <input class="form-control" name="job-3" id="job-3-position" type="text" placeholder="Position">
+	      <input class="form-control" name="job-3" id="job-3-employer" type="text" placeholder="Employer">
+	      <input class="form-control" name="job-3" id="job-3-date-started" type="text" placeholder="Date started (MM/YY)">
+	      <input class="form-control" name="job-3" id="job-3-date-ended" type="text" placeholder="Date ended (MM/YY)">
+	      <textarea class="form-control" name="job-3-description" text="text" rows="5" cols="40" placeholder="Responsibilities"></textarea>
+	    </div> 
+	</fieldset>
+	  
+	<!-- EDUCATION -->  
+	<fieldset>
+	  <legend>Education</legend>
+	    <div class="form-group col-xs-12">
+	     <h4>High school</h4>
+	      <input class="form-control" name="high-school" id="high-school-name" type="text" placeholder="School name" required>
+	      <input class="form-control" name="high-school" id="high-school-gpa" type="text" placeholder="GPA" required>
+	      <input class="form-control" name="high-school" id="high-school-date-started" type="text" placeholder="Date started (MM/YY)" required>
+	      <input class="form-control" name="high-school" id="high-school-date-ended" type="text" placeholder="Date ended (MM/YY)" required>
+	    </div> 
+	     
+	    <div class="form-group col-xs-12">   
+	     <h4>Undergraduate school</h4>
+	      <input class="form-control" name="undergraduate" id="undergraduate-name" type="text" placeholder="School name">
+	      <input class="form-control" name="undergraduate" id="undergraduate-field" type="text" placeholder="Major">
+	      <input class="form-control" name="undergraduate" id="undergraduate-gpa" type="text" placeholder="GPA">
+	      <input class="form-control" name="undergraduate" id="undergraduate-date-started" type="text" placeholder="Date started (MM/YY)">
+	      <input class="form-control" name="undergraduate" id="undergraduate-date-ended" type="text" placeholder="Date ended (MM/YY)">
+	    </div>
+	    
+	    <div class="form-group col-xs-12">
+	     <h4>Secondary education</h4>
+	      <input class="form-control" name="graduate" id="graduate-name" type="text" placeholder="School name">
+	      <input class="form-control" name="graduate" id="graduate-program" type="text" placeholder="Program (PhD, MA, etc.)">
+	      <input class="form-control" name="graduate" id="graduate-gpa" type="text" placeholder="GPA">
+	      <input class="form-control" name="graduate" id="graduate-date-started" type="text" placeholder="Date started (MM/YY)">
+	      <input class="form-control" name="graduate" id="graduate-date-ended" type="text" placeholder="Date ended (MM/YY)">
+	    </div>
+	</fieldset>
+ 
+ 
+ <!-- SOCIAL MEDIA LINKS -->
+   <fieldset>
+     <legend>Social Media (optional)</legend>
+   <!-- LINKEDIN -->
+   
+   <!-- FACEBOOK -->
+   </fieldset>
+	<div class="span12">
+  	<button type="submit" class="btn btn-success">Go!</button>
+  </div>
+  
+  
+</form>
+
+

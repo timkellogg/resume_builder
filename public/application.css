@@ -1,0 +1,66 @@
+/* general */
+
+/* index (form) */
+
+body {
+	background-color: #FFFFF2;
+}
+.form-group {
+	padding: 5px;
+}
+
+fieldset {
+	margin-top: 15px;
+}
+
+legend {
+	color: royalblue;
+}
+
+.col-xs-12 {
+	padding: 5px;
+	margin-top: 2px;
+}
+
+#high-school-name,
+#undergraduate-name,
+#graduate-name,
+#job-1-position,
+#job-2-position,
+#job-3-position,
+#job-1-employer,
+#job-2-employer,
+#job-3-employer {
+	width: 50%;
+	margin-bottom: 8px;
+}
+
+#high-school-gpa,
+#undergraduate-gpa,
+#graduate-gpa {
+	width: 8%;
+	margin-bottom: 8px;
+}
+
+#high-school-date-started,
+#undergraduate-date-started,
+#graduate-date-started,
+#high-school-date-ended,
+#undergraduate-date-ended,
+#graduate-date-ended,
+#job-1-date-started,
+#job-2-date-started,
+#job-3-date-started,
+#job-1-date-ended,
+#job-2-date-ended,
+#job-3-date-ended {
+	width: 18%;
+	margin-bottom: 8px;
+}
+
+#undergraduate-field,
+#graduate-program {
+	width: 18%;
+	margin-bottom: 8px;
+}
+
