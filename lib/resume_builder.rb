@@ -2,8 +2,9 @@ class Job
 
 	@@all_jobs = []
 
-	define_method :initialize do |date, position, employer, description|
-		@date = date 
+	define_method :initialize do |date_started, date_ended, position, employer, description|
+		@date_started = date_started 
+		@date_ended = date_ended 
 		@position = position 
 		@employer = employer 
  

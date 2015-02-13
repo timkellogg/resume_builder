@@ -19,13 +19,13 @@
 	<!-- OBJECTIVE -->
 	<fieldset>
 		<legend>Objective</legend>
-		  <textarea class="form-control" type="text" rows="10" cols="50" placeholder="Type in your objective statement" required></textarea>
+		  <textarea class="form-control" id="objective" name="objective" type="text" rows="10" cols="50" placeholder="Type in your objective statement" required></textarea>
 	</fieldset>
 	
 	 <!-- SKILLS -->
 	<fieldset>
 		<legend>Skills</legend>
-		  <textarea class="form-control" type="text" rows="8" cols="40" placeholder="Add in skills separated by commas" required></textarea>
+		  <textarea class="form-control" id="skills" name="skills" type="text" rows="8" cols="40" placeholder="Add in skills separated by commas" required></textarea>
 	</fieldset>
 	
 	<!-- ADDING JOBS -->
@@ -33,26 +33,26 @@
   	<legend>Jobs</legend>
   	 <div class="form-group col-xs-12">
 	     <h4>Job 1 (most recent)</h4>
-	      <input class="form-control" name="job-1" id="job-1-position" type="text" placeholder="Position" required>
-	      <input class="form-control" name="job-1" id="job-1-employer" type="text" placeholder="Employer" required>
-	      <input class="form-control" name="job-1" id="job-1-date-started" type="text" placeholder="Date started (MM/YY)" required>
-	      <input class="form-control" name="job-1" id="job-1-date-ended" type="text" placeholder="Date ended (MM/YY)" required>
+	      <input class="form-control" name="job-1-position" id="job-1-position" type="text" placeholder="Position" required>
+	      <input class="form-control" name="job-1-employer" id="job-1-employer" type="text" placeholder="Employer" required>
+	      <input class="form-control" name="job-1-date-started" id="job-1-date-started" type="text" placeholder="Date started (MM/YY)" required>
+	      <input class="form-control" name="job-1-date-ended" id="job-1-date-ended" type="text" placeholder="Date ended (MM/YY)" required>
 	      <textarea class="form-control" name="job-1-description" text="text" rows="5" cols="40" placeholder="Responsibilities" required></textarea>
 	    </div> 
 	   <div class="form-group col-xs-12">
 	     <h4>Job 2</h4>
-	      <input class="form-control" name="job-2" id="job-2-position" type="text" placeholder="Position">
-	      <input class="form-control" name="job-2" id="job-2-employer" type="text" placeholder="Employer">
-	      <input class="form-control" name="job-2" id="job-2-date-started" type="text" placeholder="Date started (MM/YY)">
-	      <input class="form-control" name="job-2" id="job-2-date-ended" type="text" placeholder="Date ended (MM/YY)">
+	      <input class="form-control" name="job-2-position" id="job-2-position" type="text" placeholder="Position">
+	      <input class="form-control" name="job-2-employer" id="job-2-employer" type="text" placeholder="Employer">
+	      <input class="form-control" name="job-2-date-started" id="job-2-date-started" type="text" placeholder="Date started (MM/YY)">
+	      <input class="form-control" name="job-2-date-ended" id="job-2-date-ended" type="text" placeholder="Date ended (MM/YY)">
 	      <textarea class="form-control" name="job-2-description" text="text" rows="5" cols="40" placeholder="Responsibilities"></textarea>
 	    </div> 
 	    <div class="form-group col-xs-12">
 	     <h4>Job 3</h4>
-	      <input class="form-control" name="job-3" id="job-3-position" type="text" placeholder="Position">
-	      <input class="form-control" name="job-3" id="job-3-employer" type="text" placeholder="Employer">
-	      <input class="form-control" name="job-3" id="job-3-date-started" type="text" placeholder="Date started (MM/YY)">
-	      <input class="form-control" name="job-3" id="job-3-date-ended" type="text" placeholder="Date ended (MM/YY)">
+	      <input class="form-control" name="job-3-position" id="job-3-position" type="text" placeholder="Position">
+	      <input class="form-control" name="job-3-employer" id="job-3-employer" type="text" placeholder="Employer">
+	      <input class="form-control" name="job-3-date-started" id="job-3-date-started" type="text" placeholder="Date started (MM/YY)">
+	      <input class="form-control" name="job-3-date-ended" id="job-3-date-ended" type="text" placeholder="Date ended (MM/YY)">
 	      <textarea class="form-control" name="job-3-description" text="text" rows="5" cols="40" placeholder="Responsibilities"></textarea>
 	    </div> 
 	</fieldset>
@@ -62,28 +62,28 @@
 	  <legend>Education</legend>
 	    <div class="form-group col-xs-12">
 	     <h4>High school</h4>
-	      <input class="form-control" name="high-school" id="high-school-name" type="text" placeholder="School name" required>
-	      <input class="form-control" name="high-school" id="high-school-gpa" type="text" placeholder="GPA" required>
-	      <input class="form-control" name="high-school" id="high-school-date-started" type="text" placeholder="Date started (MM/YY)" required>
-	      <input class="form-control" name="high-school" id="high-school-date-ended" type="text" placeholder="Date ended (MM/YY)" required>
+	      <input class="form-control" name="high-school-name" id="high-school-name" type="text" placeholder="School name" required>
+	      <input class="form-control" name="high-school-gpa" id="high-school-gpa" type="text" placeholder="GPA" required>
+	      <input class="form-control" name="high-school-date-started" id="high-school-date-started" type="text" placeholder="Date started (MM/YY)" required>
+	      <input class="form-control" name="high-school-date-ended" id="high-school-date-ended" type="text" placeholder="Date ended (MM/YY)" required>
 	    </div> 
 	     
 	    <div class="form-group col-xs-12">   
 	     <h4>Undergraduate school</h4>
-	      <input class="form-control" name="undergraduate" id="undergraduate-name" type="text" placeholder="School name">
-	      <input class="form-control" name="undergraduate" id="undergraduate-field" type="text" placeholder="Major">
-	      <input class="form-control" name="undergraduate" id="undergraduate-gpa" type="text" placeholder="GPA">
-	      <input class="form-control" name="undergraduate" id="undergraduate-date-started" type="text" placeholder="Date started (MM/YY)">
-	      <input class="form-control" name="undergraduate" id="undergraduate-date-ended" type="text" placeholder="Date ended (MM/YY)">
+	      <input class="form-control" name="undergraduate-name" id="undergraduate-name" type="text" placeholder="School name">
+	      <input class="form-control" name="undergraduate-field" id="undergraduate-field" type="text" placeholder="Major">
+	      <input class="form-control" name="undergraduate-gpa" id="undergraduate-gpa" type="text" placeholder="GPA">
+	      <input class="form-control" name="undergraduate-date-started" id="undergraduate-date-started" type="text" placeholder="Date started (MM/YY)">
+	      <input class="form-control" name="undergraduate-date-ended" id="undergraduate-date-ended" type="text" placeholder="Date ended (MM/YY)">
 	    </div>
 	    
 	    <div class="form-group col-xs-12">
 	     <h4>Secondary education</h4>
-	      <input class="form-control" name="graduate" id="graduate-name" type="text" placeholder="School name">
-	      <input class="form-control" name="graduate" id="graduate-program" type="text" placeholder="Program (PhD, MA, etc.)">
-	      <input class="form-control" name="graduate" id="graduate-gpa" type="text" placeholder="GPA">
-	      <input class="form-control" name="graduate" id="graduate-date-started" type="text" placeholder="Date started (MM/YY)">
-	      <input class="form-control" name="graduate" id="graduate-date-ended" type="text" placeholder="Date ended (MM/YY)">
+	      <input class="form-control" name="graduate-name" id="graduate-name" type="text" placeholder="School name">
+	      <input class="form-control" name="graduate-program" id="graduate-program" type="text" placeholder="Program (PhD, MA, etc.)">
+	      <input class="form-control" name="graduate-gpa" id="graduate-gpa" type="text" placeholder="GPA">
+	      <input class="form-control" name="graduate-date-started" id="graduate-date-started" type="text" placeholder="Date started (MM/YY)">
+	      <input class="form-control" name="graduate-date-ended" id="graduate-date-ended" type="text" placeholder="Date ended (MM/YY)">
 	    </div>
 	</fieldset>
  

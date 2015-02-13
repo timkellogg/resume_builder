@@ -1,3 +1,16 @@
-<!--Output resume here -->
+<h1>This is what your resume looks like now:</h1>
 
-<!--Have edit button to link back to index page -->
+
+<p>Download PDF of Resume</p>
+<form action='/resume/download' method="get">
+	<div class="span12">
+  	<button type="submit" class="btn btn-success">Go!</button>
+  </div>	
+</form>
+
+
+<p>
+<%= @name %>
+<%= @email %>
+<%= @phone %>
+</p>
